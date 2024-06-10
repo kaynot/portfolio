@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from "next/image";
-import icon from '../components/images/icon.png'
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
 export const Footer = () => {
@@ -8,7 +7,7 @@ export const Footer = () => {
     <div className='h-[200px] bg-black '>
         <div className=' h-full flex '>
 <div className='h-full w-[50%] p-2'>
-<Image src={icon} alt='logo' className='w-[20%] h-[50%]'/>
+<div className='flex animate-pulse'> <h1 className='flex font-bold text-[23px] text-green-300 '>Percy</h1><h2 className=' text-pink-200 font-bold text-[30px]'>Studio</h2></div>
 <h1 className='font-bold'>Web Developer</h1>
 <p className='font-mono'>FrontEnd Developer</p>
 </div>

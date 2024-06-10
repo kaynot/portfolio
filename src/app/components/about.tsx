@@ -13,7 +13,7 @@ export const About = () => {
           <Image
             src={img}
             alt="Personal img"
-            className="w-[50%] h-[80%]  rounded-full"
+            className="w-[50%] h-[80%]  rounded-full border border-green-300"
           />
         </div>
         <div className="h-[500px] w-[30%] ">
