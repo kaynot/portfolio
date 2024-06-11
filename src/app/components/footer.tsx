@@ -4,35 +4,40 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from 'react-i
 import { AiOutlineMail } from 'react-icons/ai';
 export const Footer = () => {
   return (
-    <div className='h-[200px] bg-black '>
-        <div className=' h-full flex '>
-<div className='h-full w-[50%] p-2'>
-<div className='flex animate-pulse'> <h1 className='flex font-bold text-[23px] text-green-300 '>Percy</h1><h2 className=' text-pink-200 font-bold text-[30px]'>Studio</h2></div>
-<h1 className='font-bold'>Web Developer</h1>
-<p className='font-mono'>FrontEnd Developer</p>
-</div>
-<div className=' h-full w-[50%] pt-8'>
-<ul className='flex flex-col space-y-2 text-center font-mono  '>
-    <li>Home</li>
-    <li>About</li>
-    <li>Service</li>
-    <li>Contact</li>
-</ul>
-</div>
-<div className=' h-full w-[50%]  text-center pt-8'>
-    <h1 className='font-mono'>Social Media Handles</h1>
-    <div className='flex gap-5 justify-center mt-10'>
-    <FaGithub size={32} color="pink" className="lg:text-4xl" />
-            <FaWhatsapp size={32} color="pink" className="lg:text-4xl" />
-            <FaLinkedin size={32} color="pink" className="lg:text-4xl " />
-            <AiOutlineMail size={32} color="pink" className="lg:text-4xl" />
-            <FaFacebook size={32} color="pink" className="lg:text-4xl" />
-            <FaTwitter size={32} color="pink" className="lg:text-4xl" />
-
+    <div className="h-auto bg-black w-full p-4">
+    <div className="flex flex-col lg:flex-row h-full">
+        {/* <!-- Logo and Developer Info --> */}
+        <div className="w-full lg:w-[33%] p-2 text-center lg:text-left">
+            <div className="flex justify-center lg:justify-start animate-pulse">
+                <h1 className="font-bold text-[23px] text-green-300">Percy</h1>
+                <h2 className="text-pink-200 font-bold text-[30px] ml-2">Studio</h2>
             </div>
-    </div>
+            <h1 className="font-bold text-white">Web Developer</h1>
+            <p className="font-mono text-white">FrontEnd Developer</p>
         </div>
-
+        {/* <!-- Navigation Links --> */}
+        <div className="w-full lg:w-[33%] pt-8 lg:pt-2 text-center">
+            <ul className="flex flex-col space-y-2 font-mono text-white">
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        {/* <!-- Social Media Handles --> */}
+        <div className="w-full lg:w-[33%] pt-8 lg:pt-2 text-center">
+            <h1 className="font-mono text-white">Social Media Handles</h1>
+            <div className="flex justify-center gap-5 mt-4">
+                <FaGithub size={32} color="pink" className="lg:text-4xl cursor-pointer" />
+                <FaWhatsapp size={32} color="pink" className="lg:text-4xl cursor-pointer" />
+                <FaLinkedin size={32} color="pink" className="lg:text-4xl cursor-pointer" />
+                <AiOutlineMail size={32} color="pink" className="lg:text-4xl cursor-pointer" />
+                <FaFacebook size={32} color="pink" className="lg:text-4xl cursor-pointer" />
+                <FaTwitter size={32} color="pink" className="lg:text-4xl cursor-pointer" />
+            </div>
+        </div>
     </div>
+</div>
+
   )
 }

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Navbar } from "./components/navbar";
 import { Intro } from "./components/intro";
 import { Skill } from "./components/skill";
@@ -11,16 +10,16 @@ import { Footer } from "./components/footer";
 
 export default function Home() {
   return (
-    <main className="w-full h-full bg-gradient-to-b from-black to-gray-900 text-white">
-     <Navbar/>
-     <Intro/>
-     <Services/>
-     <Projects/>
-     <About/>
-     <Skill/>
-     <Experience/>
-     <Contact/>
-     <Footer/>
-  </main>
+    <main className="w-full h-full bg-gradient-to-b from-black to-gray-900 text-white px-4 sm:px-6 lg:px-8">
+    <Navbar/>
+    <Intro/>
+    <Services/>
+    {/* <Projects/> */}
+    <About/>
+    <Skill/>
+    <Experience/>
+    <Contact/>
+    <Footer/>
+</main>
   );
 }

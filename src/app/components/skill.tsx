@@ -59,22 +59,21 @@ export const Skill = () => {
     
   ];
 return (
-    <div className="h-[300px] w-full ">
-        <div className="">
-            <h1 className="text-center text-[30px] font-mono font-bold  ">Technical Skills</h1>
-        </div>
-        <div className="mt-10 mx-10 flex gap-4 justify-center">
-            {skills.map(({ id, title, img }) => (
-                <div
-                    key={id.toString()}
-                    className="bg-pink-200 shadow-2xl rounded-xl h-[100px] w-[100px] p-6"
-                >
-                    <Image src={img} alt="react" className="w-[50px] h-[50px] " />
-                    
-                    {/* <div className="text-black font-mono " >{title}</div> */}
-                </div>
-            ))}
-        </div>
+    <div className="h-auto w-full py-10">
+    <div>
+        <h1 className="text-center text-[30px] font-mono font-bold">Technical Skills</h1>
     </div>
+    <div className="mt-10 mx-4 lg:mx-10 flex flex-wrap gap-4 justify-center">
+        {skills.map(({ id, title, img }) => (
+            <div
+                key={id.toString()}
+                className="bg-pink-200 shadow-2xl rounded-xl h-[100px] w-[100px] p-6 flex items-center justify-center"
+            >
+                <Image src={img} alt={title} className="w-[50px] h-[50px]" />
+            </div>
+        ))}
+    </div>
+</div>
+
 );
 };
