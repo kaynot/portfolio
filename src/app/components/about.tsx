@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import img from "./images/percy.jpeg";
-import { FaGithub, FaGoogle, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaGoogle, FaLinkedin, FaSnapchat, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 
 export const About = () => {
@@ -14,7 +14,7 @@ export const About = () => {
             <Image
                 src={img}
                 alt="Personal img"
-                className="w-[80%] lg:w-[50%] h-auto lg:h-[80%] rounded-full border border-green-300"
+                className="w-[80%] lg:w-[50%] h-auto lg:h-[80%] rounded-full border border-pink-200"
             />
         </div>
         
@@ -27,10 +27,27 @@ export const About = () => {
                 <p className="mt-2 font-bold text-2xl">Let's build something amazing together!</p>
             </div>
             <div className="flex gap-5 mt-4 lg:mt-10 justify-center lg:justify-start">
-                <FaGithub size={32} color="pink" className="cursor-pointer" />
-                <FaWhatsapp size={32} color="pink" className="cursor-pointer" />
-                <FaLinkedin size={32} color="pink" className="cursor-pointer" />
-                <AiOutlineMail size={32} color="pink" className="cursor-pointer" />
+            <a href="https://github.com/kaynot" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={32} color="pink" className="lg:text-4xl cursor-pointer" />
+            </a>
+            <a href="https://wa.me/0559630343" target="_blank" rel="noopener noreferrer">
+        <FaWhatsapp size={32} color="pink" className="lg:text-4xl cursor-pointer" />
+    </a>
+    <a href="https://www.linkedin.com/in/percy-konotey-230a7b305/" target="_blank" rel="noopener noreferrer">
+        <FaLinkedin size={32} color="pink" className="lg:text-4xl cursor-pointer" />
+    </a>
+    <a href="mailto:percykaynot@gmail.com">
+        <AiOutlineMail size={32} color="pink" className="lg:text-4xl cursor-pointer" />
+    </a>
+    <a href="https://www.facebook.com/brv.kaynot11" target="_blank" rel="noopener noreferrer">
+        <FaFacebook size={32} color="pink" className="lg:text-4xl cursor-pointer" />
+    </a>
+    <a href="https://twitter.com/kaynot1" target="_blank" rel="noopener noreferrer">
+        <FaTwitter size={32} color="pink" className="lg:text-4xl cursor-pointer" />
+    </a>
+    <a href="https://www.snapchat.com/add/brv_kaynot" target="_blank" rel="noopener noreferrer">
+        <FaSnapchat size={32} color="pink" className="lg:text-4xl cursor-pointer" />
+    </a>
             </div>
         </div>
     </div>
