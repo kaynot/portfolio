@@ -10,7 +10,7 @@ import { Footer } from "./components/footer";
 
 export default function Home() {
   return (
-    <main className="w-full h-full bg-gradient-to-b from-black to-gray-900 text-white px-4 sm:px-6 lg:px-8">
+    <main className="w-full h-full bg-bg-img2  text-white px-4 sm:px-6 lg:px-8">
     <Navbar/>
     <Intro/>
     <Services/>

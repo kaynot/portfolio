@@ -6,7 +6,7 @@ export const Navbar = () => {
     <div className='w-full md:w-[10%] h-[100%] mx-3'>
         <div className='flex animate-pulse'>
             <h1 className='font-bold text-[23px] text-green-300'>Percy</h1>
-            <h2 className='text-pink-200 font-bold text-[30px] ml-2'>Studio</h2>
+            <h2 className='text-pink-200 font-bold text-[30px]'>Studio</h2>
         </div>
     </div>
     <div className='flex justify-center md:justify-end w-full p-4 flex-col md:flex-row'>

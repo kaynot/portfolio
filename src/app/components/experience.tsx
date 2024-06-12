@@ -17,7 +17,7 @@ export const Experience = () => {
                     {
                         children: "Started Senior High School at Ofori Panin Senior High School in 2016",
                         color: "green",
-                        style: { border: "1px solid green", padding: "10px" },
+                        style: { border: "1px solid pink", padding: "10px" },
                     },
                     {
                         children: "Completed Senior High in 2019",
@@ -27,7 +27,7 @@ export const Experience = () => {
                     {
                         children: "Began Tertiary Education at University of Professional Studies Accra (UPSA) in 2019",
                         color: "green",
-                        style: { border: "1px solid green", padding: "10px" },
+                        style: { border: "1px solid pink", padding: "10px" },
                     },
                     {
                         children: "Completed Tertiary Education in 2023",
@@ -48,7 +48,7 @@ export const Experience = () => {
                     {
                         children: "Did my Internship at the Ghana Prisons Headquarters - 09/2023",
                         color: "green",
-                        style: { border: "1px solid green", padding: "10px" },
+                        style: { border: "1px solid pink", padding: "10px" },
                     },
                     {
                         children: "Completed Internship in month -10/2023",
@@ -58,7 +58,7 @@ export const Experience = () => {
                     {
                         children: "Started working at Innorik Ghana LTD as a national service personnel in 2023/2024",
                         color: "green",
-                        style: { border: "1px solid green", padding: "10px" },
+                        style: { border: "1px solid pink", padding: "10px" },
                     },
                     {
                         children: "Still working at Innorik Ghana LTD as a national service personnel",

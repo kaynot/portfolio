@@ -67,7 +67,7 @@ return (
         {skills.map(({ id, title, img }) => (
             <div
                 key={id.toString()}
-                className="bg-pink-200 shadow-2xl rounded-xl h-[100px] w-[100px] p-6 flex items-center justify-center"
+                className="bg-pink-200 shadow-2xl rounded-xl h-[100px] w-[100px] p-6 flex items-center justify-center cursor-pointer hover:bg-green-300  transition duration-500 transform hover:scale-110"
             >
                 <Image src={img} alt={title} className="w-[50px] h-[50px]" />
             </div>

@@ -25,13 +25,13 @@ export const Services = () => {
 ]
   return (
     <div className='h-auto'>
-    <h1 className='text-center text-[30px] font-mono font-bold'>My Services</h1>
+    <h1 className='text-center text-[30px] font-mono font-bold '>My Services</h1>
     <div className='flex justify-center mt-10 flex-wrap'>
         <div className='flex flex-wrap justify-center space-y-4 sm:space-y-0 sm:space-x-4 md:space-x-10  md:gap-y-4 '>
             {services.map(({ id, title, description, icon }) => (
                 <div
                     key={id.toString()}
-                    className='bg-gray-900 shadow-2xl cursor-pointer hover:bg-pink-200 hover:text-black transition duration-500 transform hover:scale-110 rounded-xl p-4 h-[200px] w-full sm:w-[45%] md:w-auto lg:w-[25%] max-w-[500px] border-green-300 border'
+                    className='bg-black shadow-2xl cursor-pointer hover:bg-pink-200 hover:text-black transition duration-500 transform hover:scale-110 rounded-xl p-4 h-[200px] w-full sm:w-[45%] md:w-auto lg:w-[25%] max-w-[500px] border-pink-200 border'
                 >
                     <h1 className='text-xl font-bold mb-4 flex gap-2'>
                         {title} {icon}
