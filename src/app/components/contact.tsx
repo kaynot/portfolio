@@ -3,7 +3,7 @@ import { AiOutlineEnvironment, AiOutlineMail, AiOutlinePhone } from "react-icons
 
 export const Contact = () => {
   return (
-    <div className="h-auto p-10 bg-black ">
+    <div className="h-auto p-10  ">
     <h1 className="text-[30px] font-bold font-mono text-center text-white">
         Contact me
     </h1>

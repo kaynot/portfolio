@@ -4,13 +4,13 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from 'react-i
 import { AiOutlineMail } from 'react-icons/ai';
 export const Footer = () => {
   return (
-    <div className="h-auto bg-black w-full p-4">
+    <div className="h-auto w-full p-4">
     <div className="flex flex-col lg:flex-row h-full">
         {/* <!-- Logo and Developer Info --> */}
         <div className="w-full lg:w-[33%] p-2 text-center lg:text-left">
             <div className="flex justify-center lg:justify-start animate-pulse">
                 <h1 className="font-bold text-[23px] text-green-300">Percy</h1>
-                <h2 className="text-pink-200 font-bold text-[30px] ml-2">Studio</h2>
+                <h2 className="text-pink-200 font-bold text-[30px] ">Studio</h2>
             </div>
             <h1 className="font-bold text-white">Web Developer</h1>
             <p className="font-mono text-white">FrontEnd Developer</p>
