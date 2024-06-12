@@ -1,17 +1,35 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin, FaSnapchat, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import Image from "next/image";
 import img from "./images/file.png";
 import man from "./images/Premium_Photo___Fun_3D_cartoon_illustration_of_an_indian_businessman-removebg-preview.png";
-import { AiOutlineDownload } from "react-icons/ai";
+import { AiOutlineDownload, AiOutlineMail } from "react-icons/ai";
 export const Intro = () => {
   return (
     <div className="w-full flex flex-col lg:flex-row h-auto lg:h-[500px]   ">
     {/* -- Social Icons Section */}
     <div className="flex flex-col gap-4 lg:gap-10 justify-center mx-auto lg:mx-10 my-4 lg:my-0 h-auto lg:h-full">
-        <FaGithub size={32} color="pink" className="lg:text-4xl cursor-pointer" />
+    <a href="https://github.com/kaynot" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={32} color="pink" className="lg:text-4xl cursor-pointer" />
+            </a>
+            <a href="https://wa.me/0559630343" target="_blank" rel="noopener noreferrer">
         <FaWhatsapp size={32} color="pink" className="lg:text-4xl cursor-pointer" />
+    </a>
+    <a href="https://www.linkedin.com/in/percy-konotey-230a7b305/" target="_blank" rel="noopener noreferrer">
         <FaLinkedin size={32} color="pink" className="lg:text-4xl cursor-pointer" />
+    </a>
+    <a href="mailto:percykaynot@gmail.com">
+        <AiOutlineMail size={32} color="pink" className="lg:text-4xl cursor-pointer" />
+    </a>
+    <a href="https://www.facebook.com/brv.kaynot11" target="_blank" rel="noopener noreferrer">
+        <FaFacebook size={32} color="pink" className="lg:text-4xl cursor-pointer" />
+    </a>
+    <a href="https://twitter.com/kaynot1" target="_blank" rel="noopener noreferrer">
+        <FaTwitter size={32} color="pink" className="lg:text-4xl cursor-pointer" />
+    </a>
+    <a href="https://www.snapchat.com/add/brv_kaynot" target="_blank" rel="noopener noreferrer">
+        <FaSnapchat size={32} color="pink" className="lg:text-4xl cursor-pointer" />
+    </a>
     </div>
     
     {/* -- Image Section -- */}
@@ -26,9 +44,9 @@ export const Intro = () => {
         </p>
         <p className="font-bold text-lg lg:text-xl mt-2">Frontend Developer</p>
 
-        <a href="src\app\components\File\Percy-Djiwornu-Konotey-FlowCV-Resume-20240523.pdf" download className="bg-black font-bold font-mono p-2 border border-pink-200 text-white rounded-3xl mt-2 flex items-center justify-center lg:justify-start w-[50%] lg:w-[12%] gap-2 hover:bg-pink-200 hover:text-black transition duration-500 transform hover:scale-110 mx-auto lg:mx-0">
+        <a href="/CV.pdf" download className="bg-black font-bold font-mono p-2 border border-pink-200 text-white rounded-3xl mt-2 flex items-center justify-center lg:justify-start w-[50%] lg:w-[12%] gap-2 hover:bg-pink-200 hover:text-black transition duration-500 transform hover:scale-110 mx-auto lg:mx-0">
             Download CV
-            <AiOutlineDownload size={20} color="white" className="lg:text-4xl animate-bounce" />
+            <AiOutlineDownload size={20} color="" className="lg:text-4xl animate-bounce" />
         </a>
     </div>
 </div>
