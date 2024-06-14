@@ -13,7 +13,7 @@ export const Contact = () => {
     <div className="flex flex-col lg:flex-row justify-center h-auto lg:h-[400px] p-10">
         <div className="w-full lg:w-[40%] p-2 rounded-l-2xl text-white">
             <h1 className="text-[20px] font-bold">Have an awesome project idea?</h1>
-            <p>Let's work together</p>
+            <p>Let&apos;s work together</p>
             <ul className="mt-10 font-light flex flex-col space-y-4">
                 <li className="flex items-center">
                     <AiOutlineMail size={25} color="pink" className="lg:text-4xl mr-2" />
